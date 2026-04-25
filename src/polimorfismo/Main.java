@@ -31,6 +31,18 @@ public class Main {
         System.out.println("\n=== EJERCICIO 7 ===");
         Vehiculo v = new Motocicleta();
         v.arrancar();
+        
+        System.out.println("\n=== EJERCICIO 8 ===");
+        Producto pr = new ProductoDigital("Curso Java", 850);
+        pr.mostrarInfo();
+
+        System.out.println("\n=== EJERCICIO 9 ===");
+        Instrumento ins = new Guitarra();
+        ins.tocar();
+
+        System.out.println("\n=== EJERCICIO 10 ===");
+        Trabajador tr = new TrabajadorPorHora(8, 25);
+        System.out.println("Pago total: Q" + tr.calcularPago());
 
     }
 
