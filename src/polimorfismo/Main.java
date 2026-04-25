@@ -19,6 +19,18 @@ public class Main {
         System.out.println("\n=== EJERCICIO 4 ===");
         Cuenta cuenta = new CuentaAhorro(1000);
         cuenta.depositar(500);
+        
+        System.out.println("\n=== EJERCICIO 5 ===");
+        Transporte t = new Avion();
+        t.mover();
+
+        System.out.println("\n=== EJERCICIO 6 ===");
+        Persona p = new Estudiante("Jefferson", "Ingeniería en Sistemas");
+        p.mostrarRol();
+
+        System.out.println("\n=== EJERCICIO 7 ===");
+        Vehiculo v = new Motocicleta();
+        v.arrancar();
 
     }
 
